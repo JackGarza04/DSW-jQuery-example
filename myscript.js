@@ -11,7 +11,6 @@ $(document).ready(function() {
 	});
 	$("img").click(function() {
 		var img = $("img");
-<<<<<<< HEAD
 		img.animate({left: '+=500'});
 		img.animate({height: '600px'}, "slow");
 		img.animate({height: '200px'}, "slow");
@@ -21,10 +20,3 @@ $(document).ready(function() {
 		$("#panel").slideDown("slow").toggle();
 	});
 });
-=======
-		img.animate({height: '600px', opacity: '0.5'}, "slow");
-		img.animate({height: '200px', opacity: '0.5'}, "slow");
-		img.animate({width: '200px', opacity: '1'}, "fast", function(){ $(this).removeAttr('style');}); //Callback to reset image
-	});
-});
->>>>>>> 2d78a49030a51a84d20c254ee1ed0816bdec492f
