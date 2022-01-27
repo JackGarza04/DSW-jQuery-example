@@ -11,3 +11,16 @@ img {
 	width: 20%;
 	display: none;
 }
+
+#panel, #flip {
+  padding: 5px;
+  text-align: left;
+  color: DarkBlue;
+  font-size: 200%;
+  background-color: lightblue;
+  border: solid 1px lightblue;
+}
+
+#panel {
+  display: none;
+}
