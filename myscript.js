@@ -11,9 +11,8 @@ $(document).ready(function() {
 	});
 	$("img").click(function() {
 		var img = $("img");
-		img.animate({height: '600px', opacity: '0.5'}, "fast");
-		img.animate({width: '600px', opacity: '1'}, "slow");
-		img.animate({height: '200px', opacity: '0.5'}, "fast");
-		img.animate({width: '200px', opacity: '1'}, "slow", function(){ $(this).removeAttr('style');}); //Callback to reset image
+		img.animate({height: '600px', opacity: '0.5'}, "slow");
+		img.animate({height: '200px', opacity: '0.5'}, "slow");
+		img.animate({width: '200px', opacity: '1'}, "fast", function(){ $(this).removeAttr('style');}); //Callback to reset image
 	});
 });
